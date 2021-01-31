@@ -1,6 +1,9 @@
 # FDPC Simulation
 
 This repository collects the matlab code and result data for the model analysis of the FDPC design in the paper "A relational abstraction of Structure and Behavior for Cyber-Physical System Design".
+![The top model](img/top.png "Top model")
+The main model is a StateFlow with five simulator-defined parameters. It has six behavior modes corresponding to the three system modes in relational representation.
+![The modes of the stateflow](img/system_modes.png "System modes")
 
 ## Files in the project
 
