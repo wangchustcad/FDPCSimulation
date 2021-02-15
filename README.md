@@ -22,7 +22,7 @@ The remained files are result of position (file name starts with "p") and veloci
 1. Load the project directory in MATLAB.
 2. Open the main model model.slx.
 3. Set the value of parameter {M, kR, Pe, pL, pR} and the file name of simulation result.
-4. Click "play" button, adjust solver parameter, and the simulation result will be generated in current directory.
+4. Click "play" button to compute, and the result will be generated in current directory.
 5. Open script "plotp.m" and "plotv.m" to generate plots of the position and velocity.
 
 ## Contact/Talk to me
