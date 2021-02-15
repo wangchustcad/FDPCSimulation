@@ -6,12 +6,12 @@ figure(1)
 
 i=0;
 j=0;
-tail='';
-title='Position(m)';
+
+
 while(j<=1)
+    tail='';
     if(j==1)
         tail='k';
-        title='Position()'
     end
     while(i<=4)
         clear v
@@ -22,19 +22,13 @@ while(j<=1)
         plot(v);
         hold on;
         
-        mfilename = sprintf("v%d00m1%s.mat",i,tail);
+        mfilename = sprintf("v%d00m%s.mat",i,tail);
         load(mfilename);
         plot(v);
         
-        if(i==1)
-            title("");
-        else
-            title("")
-        end
-        
-        xlabel("");
-        
-        ylabel("");
+        title('');
+        xlabel('');        
+        ylabel('');
         xlim([0,25]);
         ylim([-0.6,0.6]);
 %         if(i==0 & j==0)
